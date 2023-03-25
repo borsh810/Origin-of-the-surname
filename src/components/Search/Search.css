@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.templateContainer {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 55px;
+	margin: 5% 0;
+}
+
+.templateContainer > .searchInput_Container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+.input {
+	padding: 10px;
+	border: 1px solid #dadada;
+	border-radius: 3px;
+	color: #6e6e73;
+	background-color: #f1f1f3;
+}
+.templateContainer .template_Container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.templateContainer .template_Container .template{
+	background-color: white;
+	margin: 30px;
+	padding: 0px 20px;
+}
+.templateContainer .template_Container .template img{
+	height: 250px;
+}
+.under {
+	font-size: 29px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1d1d1f  ;
+}
+.itog {
+	
+	display: flex;
+	min-height: 25em;
+	width: 50em;
+	position: relative;
+	justify-content: center;
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	padding: 30px 20px 0 20px;
+	margin-top: 15px;
+	color: #1d1d1f;
+	background-color: #f1f1f3;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.itog {
+		width: 45em;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.itog {
+		width: 40em;
+	}
+}
+@media (max-width: 480px) {
+	.itog {
+		width: 25em;
+	}
+}
