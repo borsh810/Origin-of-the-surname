@@ -1,15 +1,13 @@
-import './Header.css'
-
+import styles from './Header.module.css'
 const Header = () => {
 	return(
 		<header >
-<div className="wrapper">
-				<button className='button'>
-				<span className='brown'>W</span><span className='gold'>h</span><span>o</span> <span>A</span><span>m</span> <span>I</span>
+<div className={styles.wrapper}>
+				<button className={styles.button}>
+				<span className={styles.green}>W</span><span className={styles.gold}>h</span><span className={styles.clr}>o</span> <span className={styles.green}>A</span><span className={styles.gold}>m</span> <span className={styles.clr}>I</span>
 					</button>
 			</div>
-			<div className="polosa">
-			
+			<div className={styles.polosa}>
 		</div>
 		</header>
 	)

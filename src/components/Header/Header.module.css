@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 header {
 	position: sticky;
 	z-index: 20;
@@ -23,21 +22,12 @@ header {
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 }
-.brown {
+.green {
 	color: darkseagreen;
 }
 .gold {
 	color: burlywood;
 }
-span:nth-child(3) {
-	color: #ebc2af;
-}
-span:nth-child(4) {
-	color: darkseagreen ;
-}
-span:nth-child(5) {
-	color:  burlywood;
-}
-span:nth-child(6) {
+.clr {
 	color: #ebc2af;
 }
