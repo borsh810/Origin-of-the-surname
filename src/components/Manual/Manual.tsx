@@ -1,5 +1,8 @@
 import SurnameX from "./SurnameX"
 import Ukrainian from "../Characters/Ukrainian"
+import Russian from "../Characters/Russian";
+import Belarus from "../Characters/Belorus";
+import Kazakh from "../Characters/Kazakh";
 
 const data = {
 	uk: {
@@ -36,7 +39,7 @@ const Manual = (props: any) => {
     if (!country) return <span>Упс... Прізвище не визначене</span> // Якщо не належить до жодної з країн, то повертаємо повідомлення
 
     const {nation} = country // Витягаємо з об'єкта country значення nation
-    return <SurnameX story={<Ukrainian/>} nation={nation} surname={surname}></SurnameX> // Повертаємо компонент SurnameX з пропсами
+    return <SurnameX story={nation === 'Україна' ? <Ukrainian/> : nation === 'Росія' ? <Russian/> : nation === 'Білорусь' ? <Belarus/> :  <Kazakh/> } nation={nation} surname={surname}></SurnameX> // Повертаємо компонент SurnameX з пропсами
 }
 
 export default Manual
